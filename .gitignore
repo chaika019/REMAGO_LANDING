@@ -1,0 +1,15 @@
+**/node_modules/
+**/dist/
+**/reports/
+**/.gitdata/
+**/.aws/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.tsbuildinfo
+**/.DS_Store
+/files_for_site/Сайт ООО _Ремаго_ (8)/Сайт ООО _Ремаго_.pdf
+/files_for_site/Сайт ООО _Ремаго_ (8).zip
+/files_for_site/Сайт ООО _Ремаго_ (5).zip
+/video/меллиниалы и зумеры.mp4
+/video/сзн.mp4

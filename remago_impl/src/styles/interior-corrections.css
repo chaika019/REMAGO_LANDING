@@ -1,0 +1,92 @@
+/* Corrections against the interior exports. Keep home, partners and shared chrome intact. */
+.advertising-page--reference .detail-intro .button > svg {
+  transform: rotate(180deg);
+}
+
+/* Fixed horizontal padding consumed nearly the entire board on narrow desktops. */
+.page-hero--product .product-hero-visual .product-hero-image--outdoor {
+  padding: 24px 12%;
+}
+
+/* A focused native button must follow its pressed state when using Enter or Space. */
+@media (hover: hover) and (pointer: fine) {
+  .rtv-page--live .channel-card:focus-within:not(:hover):not(.is-flipped) .channel-flip__inner {
+    transform: rotateY(0deg);
+  }
+}
+
+/* Five reference cards need enough room for their channel labels. */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .rtv-page .channels-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px 20px;
+  }
+}
+
+/* Switch the specification diagram before its text columns become too narrow. */
+@media (min-width: 901px) and (max-width: 1100px) {
+  .product-spec-card .product-spec-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    min-height: 0;
+  }
+
+  .product-spec-card .board-unit {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 230px;
+    height: 440px;
+  }
+
+  .product-spec-card .spec-list {
+    height: auto;
+    grid-row: 2;
+    grid-template-rows: repeat(4, minmax(100px, auto));
+    gap: 24px;
+  }
+
+  .product-spec-card .spec-list::after,
+  .product-spec-card .spec-row::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .product-spec-card .spec-row,
+  .product-spec-card .spec-list--right .spec-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .product-spec-card .spec-row > div {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+  }
+
+  .product-spec-card .spec-row .spec-icon {
+    order: -1;
+    flex: 0 0 72px;
+    width: 72px;
+    height: 72px;
+  }
+
+  .product-spec-card .spec-icon-art {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-hero--faq .button {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .services-section .service-column > .button {
+    min-height: 56px;
+    font-size: 22px;
+  }
+}

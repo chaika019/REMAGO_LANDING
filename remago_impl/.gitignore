@@ -1,0 +1,13 @@
+node_modules
+dist
+reports/
+*.tsbuildinfo
+.gitdata/
+.aws
+.env
+.DS_Store
+
+.env.*
+!.env.example
+public/media/rtv/
+src/data/rtv-media.json.tmp

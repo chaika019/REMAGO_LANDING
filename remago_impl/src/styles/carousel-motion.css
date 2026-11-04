@@ -1,0 +1,69 @@
+/* Animate composition layers, preserving the original card sizes and artwork. */
+.design-carousel__stage--smooth .design-carousel__layer {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+}
+
+.design-carousel__stage--smooth .design-carousel__layer--incoming,
+.carousel-motion__layer--incoming {
+  animation: carousel-enter var(--carousel-duration) cubic-bezier(.22, 1, .36, 1) both;
+}
+
+.design-carousel__stage--smooth .design-carousel__layer--outgoing,
+.carousel-motion__layer--outgoing {
+  z-index: 1;
+  pointer-events: none;
+  animation: carousel-leave var(--carousel-duration) cubic-bezier(.22, 1, .36, 1) both;
+}
+
+.carousel-motion {
+  display: grid;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-motion__layer {
+  grid-area: 1 / 1;
+  min-width: 0;
+  min-height: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.carousel-motion__layer--outgoing { z-index: 1; }
+
+/* Both product types occupy the same viewport so switching cannot shift the page. */
+.page-hero--product .product-hero-visual .carousel-motion { height: 650px; }
+.page-hero--product .product-hero-visual .carousel-motion .page-hero__image {
+  height: 100% !important;
+  max-height: none;
+}
+
+@media (min-width: 901px) and (max-width: 1450px) {
+  .page-hero--product .product-hero-visual .carousel-motion { height: 560px; }
+}
+
+@media (max-width: 900px) {
+  .page-hero--product .product-hero-visual .carousel-motion { height: clamp(300px, 70vw, 520px); }
+}
+
+@keyframes carousel-enter {
+  from { opacity: 0; transform: translateX(calc(var(--carousel-direction) * 28px)); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes carousel-leave {
+  from { opacity: 1; transform: none; }
+  to { opacity: 0; transform: translateX(calc(var(--carousel-direction) * -28px)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .design-carousel__stage--smooth .design-carousel__layer,
+  .carousel-motion__layer { animation: none; }
+  .design-carousel__stage--smooth .design-carousel__layer--outgoing,
+  .carousel-motion__layer--outgoing { display: none; }
+}

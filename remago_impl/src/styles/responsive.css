@@ -1,0 +1,232 @@
+/* Device layouts. Loaded last so desktop exports cannot override smaller screens. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+.button { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+.container > *, .page-hero__grid > *, .detail-intro > *,
+.services-grid > *, .contacts-grid > *, .home-strategy__grid > *,
+.ad-map-layout > *, .ad-vacancies__layout > * { min-width: 0; }
+.section-heading__eyebrow > span, .section-kicker,
+.faq-tab-label, .contact-card > div { min-width: 0; overflow-wrap: anywhere; }
+.section-heading__eyebrow::before, .section-heading__eyebrow::after { flex-shrink: 0; }
+.design-carousel__dots { flex-wrap: wrap; row-gap: 4px; }
+.not-found h1 { font-size: clamp(36px, 6vw, 80px); overflow-wrap: anywhere; }
+.contact-dialog, .rtv-video-dialog { overscroll-behavior: contain; }
+.rtv-video-dialog__playlist button > span { min-width: 0; overflow-wrap: anywhere; }
+.rtv-video-dialog__toolbar label { flex-wrap: wrap; max-width: 100%; }
+.rtv-video-dialog__toolbar select { max-width: 100%; }
+
+@media (min-width: 1101px) and (max-width: 1450px) {
+  .home-page .home-intro__grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: center; }
+  .home-page .home-intro__visual { position: relative; width: 100%; height: auto; aspect-ratio: 720 / 670; margin-top: 0; }
+  .home-page .home-intro__composition { position: static; width: 100%; height: 100%; max-width: 100%; }
+}
+
+/* Compact notebooks use the same menu as tablets, before links become crowded. */
+@media (max-width: 1200px) {
+  .site-header { height: 88px; }
+  .site-header .site-header__inner { position: static; width: calc(100% - 48px); padding-top: 0; }
+  .site-header .nav {
+    display: none;
+    position: absolute;
+    inset: 100% 0 auto;
+    margin: 0;
+    padding: 12px 24px 20px;
+    max-height: calc(100vh - 88px);
+    max-height: calc(100dvh - 88px);
+    overflow-y: auto;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    box-shadow: var(--shadow-soft);
+    transform: none;
+    opacity: 1;
+    z-index: 10;
+  }
+  .site-header .nav.nav--open { display: grid; gap: 0; pointer-events: auto; }
+  .site-header .nav a { padding: 16px 8px; font-size: 20px; line-height: 1.25; }
+  .site-header__actions { margin-left: auto; gap: 12px; }
+  .menu-button { display: grid; place-items: center; width: 44px; height: 44px; }
+  .home-strategy__grid, .services-section .services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-strategy__card { min-height: 0; }
+  .services-section .service-card { min-height: 0; height: 100%; }
+  .service-column { min-width: 0; display: flex; flex-direction: column; }
+  .service-column > .button { flex-shrink: 0; }
+}
+
+/* A single hero column keeps long Russian copy clear on tablets and small laptops. */
+@media (max-width: 1100px) {
+  .home-page .home-intro__grid, .page-hero .page-hero__grid,
+  .rtv-page .rtv-hero-grid, .advertising-page--reference .detail-intro {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+    gap: 28px;
+  }
+  .home-page .home-intro__copy, .page-hero .page-hero__content { padding-top: 24px; }
+  .home-page .home-intro__copy h1, .page-hero .page-hero__content h1,
+  .advertising-page--reference .detail-intro h1 { font-size: clamp(30px, 5vw, 48px); line-height: 1.12; }
+  .home-page .home-intro__description, .page-hero .page-hero__content p,
+  .advertising-page--reference .detail-intro p { font-size: clamp(20px, 2.8vw, 26px); line-height: 1.35; }
+  .home-page .home-intro__visual {
+    position: relative;
+    width: min(620px, 100%);
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 720 / 670;
+    margin: 0 auto;
+  }
+  .home-page .home-intro__composition { position: static; width: 100%; height: 100%; max-width: 100%; }
+  .page-hero .page-hero__image { width: min(620px, 100%); height: auto; max-height: 560px; margin: 0; justify-self: center; object-fit: contain; }
+  .rtv-page .rtv-hero-video { width: min(620px, 100%); margin-inline: auto; }
+  .rtv-page .rtv-hero-video .page-hero__image { width: 100%; height: auto; max-height: none; }
+  .page-hero--product .product-hero-visual { width: min(620px, 100%); margin-inline: auto; }
+  .page-hero--product .product-hero-visual .carousel-motion { height: clamp(300px, 65vw, 540px); }
+  .page-hero--product .product-types-wrap { margin-top: 32px; width: 100%; }
+  .page-hero--product .product-types-arrow { display: none; }
+  .page-hero--product .product-hero-visual .page-hero__image { width: 100%; max-height: none; margin: 0; }
+  .advertising-page--reference .detail-intro__visual { height: auto; max-width: 620px; width: 100%; margin-inline: auto; }
+  .advertising-page--reference .detail-intro__visual img { height: clamp(300px, 60vw, 540px); }
+  .desktop-break { display: none; }
+
+  .home-page .home-about__card { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto; min-height: 0; padding: 32px; }
+  .home-page .home-about__eyebrow { position: static; inset: auto; grid-column: 1; grid-row: 1; }
+  .home-page .home-about__headline { grid-column: 1; grid-row: 2; }
+  .home-page .home-about__stats { grid-column: 1; grid-row: 3; }
+  .home-page .home-about__visual { position: relative; inset: auto; grid-column: 1; grid-row: 4; width: min(360px, 100%); height: 440px; justify-self: center; }
+  .home-page .home-about__stats strong { white-space: normal; }
+  .home-page .home-contact__card { flex-direction: column; align-items: stretch; padding: 32px; }
+  .home-page .home-contact__card .button--phone { min-width: 0; align-self: flex-start; }
+  .partners-section + .section--cta .idea-card, .idea-card--contacts { display: flex; flex-direction: column; align-items: flex-start; padding: 32px; gap: 24px; }
+  .partners-section + .section--cta .idea-card img, .idea-card--contacts img { width: min(380px, 100%); height: auto; margin: 0; align-self: center; }
+
+  .rtv-page .principles-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rtv-page .principles-grid article { min-height: 0; padding: 24px 16px; border-bottom: 1px solid var(--line); }
+  .rtv-page .principles-grid article:nth-child(2n) { border-right: 0; }
+  .rtv-page .principles-grid article:nth-last-child(-n+2) { border-bottom: 0; }
+  .rtv-page .principles-grid p { line-height: 1.35; }
+  .rtv-page .cta-card--rtv { display: flex; flex-direction: column; align-items: stretch; min-height: 0; padding: 32px; gap: 24px; }
+  .rtv-page .cta-card--rtv .cta-card__img { position: static; transform: none; width: min(380px, 100%); height: auto; margin: 0; align-self: center; }
+  .rtv-page .rtv-cta-copy { width: 100%; max-width: none; }
+  .rtv-page .cta-card--rtv .button { min-width: 0; width: fit-content; font-size: clamp(20px, 3vw, 28px); }
+
+  .advertising-page--reference .ad-live-locations__layout { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .advertising-page--reference .ad-live-locations__table { display: block; width: 100%; max-width: 100%; }
+  .advertising-page--reference .ad-location-slider {
+    width: 100%; max-width: 680px; min-height: 0; padding: 0;
+    grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 16px 8px;
+  }
+  .advertising-page--reference .ad-location-slider__stage { grid-column: 1 / -1; width: 100%; height: auto; min-height: 0; }
+  .advertising-page--reference .ad-location-card--live { min-height: 0; }
+  .advertising-page--reference .ad-location-slider > .round-control { position: static; display: grid; width: 44px; height: 44px; transform: none; grid-row: 2; align-self: center; }
+  .advertising-page--reference .ad-location-slider__prev { grid-column: 1; }
+  .advertising-page--reference .ad-location-slider__next { grid-column: 3; }
+  .advertising-page--reference .ad-location-slider__dots { position: static; transform: none; grid-column: 2; grid-row: 2; width: 100%; max-width: none; justify-content: center; flex-wrap: wrap; gap: 2px; }
+  .advertising-page--reference .ad-location-slider__dots button { width: 28px; height: 32px; background: transparent; display: grid; place-items: center; }
+  .advertising-page--reference .ad-location-slider__dots button::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #bbb; }
+  .advertising-page--reference .ad-location-slider__dots button.active::before { background: var(--yellow); }
+  .ad-map-layout, .ad-vacancies__layout { grid-template-columns: minmax(0, 1fr); }
+  .ad-map-copy { flex-direction: row; align-items: center; gap: 16px; }
+  .ad-map-copy img { width: 120px; height: auto; margin: 0; }
+  .ad-vacancies__card, .ad-tariffs__card { padding: 32px; border-radius: 28px; }
+  .ad-vacancies__stat { margin-top: 28px; }
+  .ad-vacancies__layout h2 { font-size: clamp(28px, 4vw, 38px); }
+  .ad-board-video { width: min(300px, 100%); justify-self: center; }
+  .ad-board-video > img { height: auto; max-height: 560px; }
+  .ad-tariffs__plans { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-block: 36px 48px; }
+  .ad-tariff { min-height: 0; padding-bottom: 120px; }
+  .ad-tariffs__details { min-height: 0; padding: 28px; }
+  .ad-tariffs__details .ad-board-video { position: static; width: min(280px, 100%); margin: 28px auto 0; }
+  .ad-tariffs__details .ad-board-video > img { height: auto; max-height: 500px; }
+  .site-footer__inner { flex-wrap: wrap; gap: 32px; }
+}
+
+@media (max-width: 700px) {
+  .contacts-grid { grid-template-columns: minmax(0, 1fr); }
+  .contact-card { min-height: 0; padding: 24px; }
+  .contact-card small, .contact-card h3, .contact-card p { font-size: clamp(18px, 3.5vw, 24px); line-height: 1.3; }
+  .ad-tariffs__plans { grid-template-columns: minmax(0, 1fr); }
+  .contact-dialog__header h2 { overflow-wrap: anywhere; }
+  .rtv-video-dialog__toolbar h3 { overflow-wrap: anywhere; }
+}
+
+@media (max-width: 600px) {
+  .site-header { height: 76px; }
+  .site-header .site-header__inner { width: calc(100% - 32px); }
+  .site-header .brand img { width: 160px; }
+  .site-header .nav { max-height: calc(100vh - 76px); max-height: calc(100dvh - 76px); padding-inline: 16px; }
+  .section { padding-block: 40px; }
+  .home-strategy__grid, .services-section .services-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .home-strategy__column > .button { margin-inline: 0; }
+  .home-page .home-about__card { padding: 24px 18px; }
+  .home-page .home-about__headline h2, .home-page .home-contact__card h2 { font-size: clamp(28px, 6vw, 36px); }
+  .home-page .home-about__stats { grid-template-columns: minmax(0, 1fr); text-align: left; gap: 24px; }
+  .home-page .home-about__stats > div { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 6px 16px; align-items: center; }
+  .home-page .home-about__icon { grid-row: 1 / 3; width: 64px; height: 64px; }
+  .home-page .home-about__stats strong { font-size: 24px; }
+  .home-page .home-about__stats small { font-size: 18px; }
+  .home-page .home-about__visual { width: min(280px, 100%); height: auto; aspect-ratio: 280 / 350; }
+  .home-page .home-about__mascot { width: 100%; height: 100%; right: 0; bottom: 0; }
+  .home-page .home-about__orbit { width: 25%; height: 100%; left: 0; }
+  .home-page .home-contact__card { padding: 24px; }
+  .home-page .home-contact__card .button--phone { width: 100%; font-size: 20px; }
+  .page-hero .page-hero__content > .button { width: 100%; min-width: 0; }
+  .page-hero--product .product-types-wrap .product-types { font-size: 24px; }
+  .product-spec-card .spec-row .spec-icon { flex-basis: 56px; width: 56px; height: 56px; }
+  .product-spec-card .spec-icon-art { width: 56px; height: 56px; }
+  .product-spec-card .board-unit { max-width: 100%; }
+  .product-spec-card .spec-row small { font-size: 16px; line-height: 1.35; }
+  .faq-tabs { gap: 12px; }
+  .faq-tabs button { flex-direction: column; min-width: 0; padding: 12px 8px; }
+  .faq-tabs button .faq-tab-label { font-size: 16px; line-height: 1.25; }
+  .faq-item > button { font-size: 20px; line-height: 1.3; }
+  .faq-item > button b { flex-shrink: 0; }
+  .faq-item p { font-size: 18px; line-height: 1.5; overflow-wrap: anywhere; }
+  .rtv-page .rtv-principles-card, .rtv-page .rtv-channels-card { padding: 24px 16px; }
+  .rtv-page .cta-card--rtv { padding: 24px; }
+  .rtv-page .channels-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .rtv-page .principles-grid { grid-template-columns: minmax(0, 1fr); }
+  .rtv-page .channel-card { width: min(320px, 100%); justify-self: center; }
+  .rtv-page .channel-card:last-child { width: min(320px, 100%); }
+  .rtv-page .channel-card p { font-size: 18px; line-height: 1.4; }
+  .advertising-page--reference .ad-live-map__card { padding: 24px 16px; }
+  .ad-map-copy { align-items: flex-start; }
+  .ad-map-copy h2 { font-size: 28px; }
+  .ad-map-copy img { width: 72px; }
+  .ad-yandex-map { min-height: 260px; }
+  .ad-yandex-map img { min-height: 260px; }
+  .ad-yandex-map span { font-size: 16px; }
+  .ad-address-table { table-layout: fixed; font-size: 14px; }
+  .ad-address-table th:first-child, .ad-address-table td:first-child { width: 36px; }
+  .ad-address-table th:last-child, .ad-address-table td:last-child { width: 86px; }
+  .ad-address-table button { min-height: 44px; padding: 6px 2px; overflow-wrap: anywhere; line-height: 1.35; }
+  .location-characteristic button { width: 44px; height: 44px; }
+  .ad-vacancies__card, .ad-tariffs__card { padding: 24px 16px; }
+  .ad-vacancies__stat { padding: 16px; align-items: flex-start; }
+  .ad-vacancies__stat p { font-size: 16px; line-height: 1.4; }
+  .ad-tariffs__details { padding: 24px 16px; }
+  .ad-tariffs__details > div > p { font-size: 20px; line-height: 1.4; }
+  .ad-tariffs__note { width: 100%; }
+  .ad-tariffs__note > img { flex-shrink: 0; }
+  .ad-tariffs__note small { min-width: 0; }
+  .advertising-page--reference .ad-campaigns-title { font-size: 26px; }
+  .advertising-page--reference .ad-campaigns-title span { width: 16px; }
+  .contact-card { gap: 16px; padding: 20px 16px; }
+  .contact-card__icon { flex-basis: 56px; width: 56px; height: 56px; }
+  .site-footer__right, .site-footer__links { align-items: flex-start; text-align: left; }
+  .site-footer__links { gap: 12px; }
+  .footer-social a { width: 44px; height: 44px; }
+  .callback-form .button { min-width: 0; width: 100%; font-size: 24px; }
+  .callback-form input, .callback-form textarea { min-width: 0; font-size: 18px; }
+  .contact-dialog__note { padding-right: 0; }
+  .contact-dialog--support .contact-dialog__header { padding: 48px 20px 20px; text-align: center; }
+  .contact-dialog--support .contact-dialog__header > img { position: static; width: 64px; height: 64px; margin: 0 auto 16px; }
+  .support-panel__greeting { align-items: flex-start; }
+  .support-panel__greeting img { width: 40px; flex-shrink: 0; }
+  .support-panel__greeting p { padding: 16px; font-size: 18px; }
+}
+
+@media (max-width: 420px) {
+  .advertising-page--reference .ad-location-facts { grid-template-columns: minmax(0, 1fr); font-size: 16px; }
+  .advertising-page--reference .ad-location-card--live h3 { font-size: 30px; min-height: 0; line-height: 1.15; overflow-wrap: anywhere; }
+  .contact-card__icon { flex-basis: 44px; width: 44px; height: 44px; }
+  .contact-card { gap: 12px; }
+  .support-panel__illustration { width: 170px; height: 180px; }
+  .support-panel__illustration span:nth-child(1) { left: 45px; }
+}

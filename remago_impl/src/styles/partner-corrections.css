@@ -1,0 +1,28 @@
+/* Input text and the 78% yellow underline share the same horizontal inset. */
+.callback-form input { padding-inline: 11%; }
+
+/* Original complete cards: no camera mask, art gradient or additional fading. */
+.partners-section .partner-campaign-carousel .design-carousel__stage { aspect-ratio: 1.5; }
+.partners-section .partner-campaign-carousel .design-carousel__slide {
+  width: 40%;
+  height: 100%;
+  border-radius: 12% / 7%;
+  background: white;
+}
+.partners-section .partner-campaign-carousel .design-carousel__slide--left,
+.partners-section .partner-campaign-carousel .design-carousel__slide--right {
+  width: 38%;
+  height: 95%;
+  opacity: 1;
+}
+.partners-section .partner-campaign-carousel .design-carousel__slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .partners-section .partner-campaign-carousel { max-width: 580px; margin-inline: auto; }
+  .partners-section .partner-campaign-carousel .design-carousel__stage { aspect-ratio: 3 / 5; }
+  .partners-section .partner-campaign-carousel .design-carousel__slide { width: 100%; }
+}

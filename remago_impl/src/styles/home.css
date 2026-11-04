@@ -1,0 +1,119 @@
+/* Home page only: original artwork extracted from folder 7 / Home page.pdf. */
+.home-page .home-intro__visual { position: static; }
+.home-page .home-intro__composition {
+  right: calc((100% - 100vw) / 2);
+  top: -70px;
+  width: 720px;
+  height: 670px;
+}
+
+/* Centre and neighbouring slides have identical frames; side artwork is already faded. */
+.home-page .home-scenes .design-carousel__stage { aspect-ratio: 2 / 1; }
+.home-page .home-scenes .design-carousel__slide { width: 67%; aspect-ratio: 4 / 3; height: auto; }
+.home-page .home-scenes .design-carousel__slide--left,
+.home-page .home-scenes .design-carousel__slide--right { opacity: 1; }
+.home-page .home-scenes .smart-scene { display: block; width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: contain; }
+.home-page .home-scenes .design-carousel__dots { margin-top: 14px; }
+.home-page .home-scenes .design-carousel__dots span { background: #d5d5d5; }
+.home-page .home-scenes .design-carousel__dots [aria-current] span { background: var(--yellow); }
+
+.home-page .home-strategy::before { content: none; }
+.home-page .home-strategy__grid { position: relative; isolation: isolate; }
+.home-page .home-strategy__grid::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc((100% - 100vw) / 2);
+  width: 100vw;
+  aspect-ratio: 1600 / 480;
+  pointer-events: none;
+  z-index: -1;
+}
+.home-page .home-strategy__grid[data-background-ready]::before {
+  background: url('/assets/optimized/home-partner-waves.svg') center top / 100% 100% no-repeat;
+}
+.home-page .home-strategy__logo { justify-content: center; }
+.home-page .home-strategy__logo img { width: 100%; height: 78px; object-fit: contain; }
+
+.home-page .home-about__card {
+  grid-template-columns: minmax(0, 1fr) 380px;
+  grid-template-rows: 106px auto;
+  padding: 82px 54px 48px;
+}
+.home-page .home-about__eyebrow {
+  position: absolute;
+  inset: 44px 0 auto;
+  grid-area: auto;
+  font-family: 'Roboto Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1;
+}
+.home-page .home-about__eyebrow img { width: 147px; height: auto; }
+.home-page .home-about__headline { grid-column: 1; grid-row: 1; }
+.home-page .home-about__stats { grid-column: 1; grid-row: 2; }
+.home-page .home-about__icon { width: 100px; height: 100px; object-fit: contain; }
+.home-page .home-about__visual { position: absolute; inset: 0 0 0 auto; width: 440px; height: 100%; grid-area: auto; }
+.home-page .home-about__mascot { width: 509px; height: 557px; right: -71px; bottom: -25px; }
+.home-page .home-about__orbit { width: 123px; height: 507px; left: -5px; top: 0; bottom: auto; object-fit: contain; z-index: 2; }
+
+.home-page .home-contact__card::before,
+.home-page .home-contact__card::after { content: none; background: none; }
+.home-page .home-contact__card .button--phone { min-height: 74px; padding: 14px 30px; gap: 28px; border-radius: 8px; }
+.home-page .home-contact__phone { width: 36px; height: 36px; flex-shrink: 0; object-fit: contain; }
+
+@media (min-width: 901px) and (max-width: 1250px) {
+  .home-page .home-intro__composition { width: 610px; height: 568px; top: -50px; }
+  .home-page .home-about__card { grid-template-columns: minmax(0, 1fr) 300px; padding: 74px 32px 40px; }
+  .home-page .home-about__visual { width: 360px; }
+  .home-page .home-about__mascot { width: 420px; height: 460px; right: -60px; bottom: -20px; }
+  .home-page .home-about__orbit { width: 100px; height: 420px; }
+  .home-page .home-about__icon { width: 78px; height: 78px; }
+}
+
+@media (max-width: 900px) {
+  .home-page .home-intro__visual { position: relative; }
+  .home-page .home-intro__composition { position: static; width: 100%; height: 100%; max-width: 100%; }
+  .home-page .home-scenes .design-carousel__stage { aspect-ratio: 4 / 3; }
+  .home-page .home-scenes .design-carousel__slide { width: 100%; }
+  .home-page .home-scenes .design-carousel__dots { margin-top: 12px; }
+  .home-page .home-strategy__grid::before { top: 100px; height: calc(100% - 100px); aspect-ratio: auto; background-size: auto 480px; background-position: center; }
+  .home-page .home-about__card { grid-template-columns: 1fr; grid-template-rows: auto; min-height: 0; padding: 32px; gap: 28px; }
+  .home-page .home-about__eyebrow { position: static; inset: auto; grid-column: 1; grid-row: 1; }
+  .home-page .home-about__headline { grid-row: 2; }
+  .home-page .home-about__stats { grid-row: 3; }
+  .home-page .home-about__visual { position: relative; inset: auto; grid-column: 1; grid-row: 4; width: min(360px, 100%); height: 440px; justify-self: center; }
+  .home-page .home-about__mascot { width: 420px; height: 460px; right: -60px; bottom: -20px; }
+  .home-page .home-about__orbit { width: 100px; height: 420px; left: -5px; top: 0; }
+  .home-page .home-about__icon { width: 88px; height: 88px; }
+}
+
+@media (max-width: 600px) {
+  .home-page .home-about__card { padding: 28px 20px; }
+  .home-page .home-about__eyebrow { gap: 12px; }
+  .home-page .home-about__eyebrow img { width: 125px; }
+  .home-page .home-about__eyebrow::before,
+  .home-page .home-about__eyebrow::after { width: 30px; }
+  .home-page .home-about__visual { width: min(280px, 100%); height: 350px; }
+  .home-page .home-about__mascot { width: 330px; height: 361px; right: -45px; bottom: -12px; }
+  .home-page .home-about__orbit { width: 82px; height: 338px; left: -5px; }
+  .home-page .home-contact__card .button--phone { width: 100%; min-width: 0; min-height: 62px; padding: 12px 18px; gap: 20px; font-size: 24px; }
+  .home-page .home-contact__phone { width: 32px; height: 32px; }
+  .home-page .home-scenes .design-carousel__dots button { width: 28px; height: 40px; }
+}
+
+/* Reference network in both lower corners of the contact card. */
+.home-page .home-contact__card::before,
+.home-page .home-contact__card::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 auto;
+  width: 228px;
+  height: 94px;
+  pointer-events: none;
+}
+.home-page .home-contact__card::before { inset: auto auto 0 0; transform: scaleX(-1); }
+.home-page .home-contact__card[data-background-ready]::before,
+.home-page .home-contact__card[data-background-ready]::after {
+  background: url('/assets/home/callback-network.svg') right bottom / contain no-repeat;
+}

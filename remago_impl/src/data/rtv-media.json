@@ -1,0 +1,146 @@
+[
+  {
+    "id": "three-prices",
+    "channel": "marketing",
+    "title": "3 цены",
+    "variants": {
+      "desktop": "three-prices/0d7a6eed101f8b6f/original.mp4",
+      "mobile": "three-prices/0d7a6eed101f8b6f/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "a1",
+    "channel": "marketing",
+    "title": "А1",
+    "variants": {
+      "desktop": "a1/5c3ed31299f214aa/original.mp4",
+      "mobile": "a1/5c3ed31299f214aa/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "segalopttorg",
+    "channel": "marketing",
+    "title": "Сегалоптторг",
+    "variants": {
+      "desktop": "segalopttorg/af8e2c6401aac3a5/original.mp4",
+      "mobile": "segalopttorg/af8e2c6401aac3a5/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "geely",
+    "channel": "marketing",
+    "title": "Джили",
+    "variants": {
+      "desktop": "geely/7088fb9c6e0d2d1c/original.mp4",
+      "mobile": "geely/7088fb9c6e0d2d1c/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "employment",
+    "channel": "marketing",
+    "title": "СЗН",
+    "variants": {
+      "desktop": "employment/916aa6c7817651d1/original.mp4",
+      "mobile": "employment/916aa6c7817651d1/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "congratulations",
+    "channel": "marketing",
+    "title": "Поздравления",
+    "variants": {}
+  },
+  {
+    "id": "vacancies",
+    "channel": "marketing",
+    "title": "Вакансии",
+    "variants": {
+      "desktop": "vacancies/30efa049e85110f4/original.mp4",
+      "mobile": "vacancies/30efa049e85110f4/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "pig-and-mascot",
+    "channel": "marketing",
+    "title": "Свинка + маскот",
+    "variants": {
+      "desktop": "pig-and-mascot/ffc197bc924821ec/original.mp4",
+      "mobile": "pig-and-mascot/ffc197bc924821ec/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "social-main",
+    "channel": "social",
+    "title": "Главный сошиал",
+    "variants": {
+      "desktop": "social-main/05e4a570b2d3121a/original.mp4",
+      "mobile": "social-main/05e4a570b2d3121a/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "priest",
+    "channel": "social",
+    "title": "Батюшка",
+    "variants": {}
+  },
+  {
+    "id": "unichel",
+    "channel": "social",
+    "title": "Юнихелл",
+    "variants": {}
+  },
+  {
+    "id": "help-boy",
+    "channel": "social",
+    "title": "Помощь мальчику",
+    "variants": {
+      "desktop": "help-boy/d9853377d1f75662/original.mp4",
+      "mobile": "help-boy/d9853377d1f75662/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "woman-in-field",
+    "channel": "gbc",
+    "title": "Женщина в поле",
+    "variants": {
+      "desktop": "woman-in-field/19a06c809ecf4e33/original.mp4",
+      "mobile": "woman-in-field/19a06c809ecf4e33/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "emergency",
+    "channel": "gbc",
+    "title": "МЧС (ГТА, Дети)",
+    "variants": {
+      "desktop": "emergency/9133839ce5958374/original.mp4",
+      "mobile": "emergency/9133839ce5958374/original.mp4"
+    },
+    "encoding": "original"
+  },
+  {
+    "id": "gbc-general",
+    "channel": "gbc",
+    "title": "Общий ролик",
+    "variants": {}
+  },
+  {
+    "id": "millennials-and-zoomers",
+    "channel": "hero",
+    "title": "Миллениалы и зумеры",
+    "variants": {
+      "desktop": "millennials-and-zoomers/c4651d65a85b2dd9/original.mp4",
+      "mobile": "millennials-and-zoomers/c4651d65a85b2dd9/original.mp4"
+    },
+    "encoding": "original"
+  }
+]

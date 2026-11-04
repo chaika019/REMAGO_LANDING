@@ -1,0 +1,1018 @@
+{
+  "/assets/about-remago.png": {
+    "src": "/assets/optimized/about-remago.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/assets/optimized/about-remago-384.webp 384w, /assets/optimized/about-remago-640.webp 640w, /assets/optimized/about-remago-960.webp 960w, /assets/optimized/about-remago-1280.webp 1280w"
+  },
+  "/assets/advertising-hero.png": {
+    "src": "/assets/optimized/advertising-hero.webp",
+    "width": 1024,
+    "height": 1536,
+    "srcSet": "/assets/optimized/advertising-hero-384.webp 384w, /assets/optimized/advertising-hero-640.webp 640w, /assets/optimized/advertising-hero-960.webp 960w"
+  },
+  "/assets/design/callback-mascot.png": {
+    "src": "/assets/optimized/design-callback-mascot.webp",
+    "width": 1024,
+    "height": 1536,
+    "srcSet": "/assets/optimized/design-callback-mascot-384.webp 384w, /assets/optimized/design-callback-mascot-640.webp 640w, /assets/optimized/design-callback-mascot-960.webp 960w"
+  },
+  "/assets/design/contact-at.png": {
+    "src": "/assets/optimized/design-contact-at.webp",
+    "width": 142,
+    "height": 142
+  },
+  "/assets/design/contact-mail.png": {
+    "src": "/assets/optimized/design-contact-mail.webp",
+    "width": 142,
+    "height": 142
+  },
+  "/assets/design/contact-phone.png": {
+    "src": "/assets/optimized/design-contact-phone.webp",
+    "width": 142,
+    "height": 142
+  },
+  "/assets/design/contact-telegram.png": {
+    "src": "/assets/optimized/design-contact-telegram.webp",
+    "width": 142,
+    "height": 142
+  },
+  "/assets/design/contacts-hero.png": {
+    "src": "/assets/optimized/design-contacts-hero.webp",
+    "width": 645,
+    "height": 562,
+    "srcSet": "/assets/optimized/design-contacts-hero-384.webp 384w, /assets/optimized/design-contacts-hero-640.webp 640w"
+  },
+  "/assets/design/faq-all.png": {
+    "src": "/assets/optimized/design-faq-all.webp",
+    "width": 41,
+    "height": 45
+  },
+  "/assets/design/faq-hero.png": {
+    "src": "/assets/optimized/design-faq-hero.webp",
+    "width": 650,
+    "height": 610,
+    "srcSet": "/assets/optimized/design-faq-hero-384.webp 384w, /assets/optimized/design-faq-hero-640.webp 640w"
+  },
+  "/assets/design/faq-payment.png": {
+    "src": "/assets/optimized/design-faq-payment.webp",
+    "width": 36,
+    "height": 45
+  },
+  "/assets/design/faq-product.png": {
+    "src": "/assets/optimized/design-faq-product.webp",
+    "width": 42,
+    "height": 45
+  },
+  "/assets/design/faq-services.png": {
+    "src": "/assets/optimized/design-faq-services.webp",
+    "width": 48,
+    "height": 47
+  },
+  "/assets/design/home-hero.png": {
+    "src": "/assets/optimized/design-home-hero.webp",
+    "width": 720,
+    "height": 670,
+    "srcSet": "/assets/optimized/design-home-hero-384.webp 384w, /assets/optimized/design-home-hero-640.webp 640w"
+  },
+  "/assets/design/language-globe.png": {
+    "src": "/assets/optimized/design-language-globe.webp",
+    "width": 53,
+    "height": 54
+  },
+  "/assets/design/product-board.png": {
+    "src": "/assets/optimized/design-product-board.webp",
+    "width": 290,
+    "height": 607
+  },
+  "/assets/design/rtv-entertainment.png": {
+    "src": "/assets/optimized/design-rtv-entertainment.webp",
+    "width": 250,
+    "height": 422
+  },
+  "/assets/design/rtv-gbc.png": {
+    "src": "/assets/optimized/design-rtv-gbc.webp",
+    "width": 250,
+    "height": 422
+  },
+  "/assets/design/rtv-marketing.png": {
+    "src": "/assets/optimized/design-rtv-marketing.webp",
+    "width": 250,
+    "height": 422
+  },
+  "/assets/design/rtv-news.png": {
+    "src": "/assets/optimized/design-rtv-news.webp",
+    "width": 250,
+    "height": 422
+  },
+  "/assets/design/rtv-social.png": {
+    "src": "/assets/optimized/design-rtv-social.webp",
+    "width": 250,
+    "height": 422
+  },
+  "/assets/design/service-board.png": {
+    "src": "/assets/optimized/design-service-board.webp",
+    "width": 151,
+    "height": 263
+  },
+  "/assets/design/service-check.png": {
+    "src": "/assets/optimized/design-service-check.webp",
+    "width": 28,
+    "height": 28
+  },
+  "/assets/design/spec-analytics.png": {
+    "src": "/assets/optimized/design-spec-analytics.webp",
+    "width": 148,
+    "height": 148
+  },
+  "/assets/design/spec-charge.png": {
+    "src": "/assets/optimized/design-spec-charge.webp",
+    "width": 148,
+    "height": 148
+  },
+  "/assets/design/spec-idea.png": {
+    "src": "/assets/optimized/design-spec-idea.webp",
+    "width": 148,
+    "height": 148
+  },
+  "/assets/design/spec-money.png": {
+    "src": "/assets/optimized/design-spec-money.webp",
+    "width": 148,
+    "height": 148
+  },
+  "/assets/design/spec-phone.png": {
+    "src": "/assets/optimized/design-spec-phone.webp",
+    "width": 148,
+    "height": 148
+  },
+  "/assets/design/spec-shield.png": {
+    "src": "/assets/optimized/design-spec-shield.webp",
+    "width": 148,
+    "height": 148
+  },
+  "/assets/design/spec-sound.png": {
+    "src": "/assets/optimized/design-spec-sound.webp",
+    "width": 148,
+    "height": 148
+  },
+  "/assets/design/spec-timer.png": {
+    "src": "/assets/optimized/design-spec-timer.webp",
+    "width": 148,
+    "height": 148
+  },
+  "/assets/design/support-avatar.png": {
+    "src": "/assets/optimized/design-support-avatar.webp",
+    "width": 270,
+    "height": 281
+  },
+  "/assets/design/tariff-clock.png": {
+    "src": "/assets/optimized/design-tariff-clock.webp",
+    "width": 83,
+    "height": 84
+  },
+  "/assets/design/vacancy-board.png": {
+    "src": "/assets/optimized/design-vacancy-board.webp",
+    "width": 250,
+    "height": 538
+  },
+  "/assets/design/vacancy-map-icon.png": {
+    "src": "/assets/optimized/design-vacancy-map-icon.webp",
+    "width": 89,
+    "height": 90
+  },
+  "/assets/hero-partners-ref.png": {
+    "src": "/assets/optimized/hero-partners-ref.webp",
+    "width": 1398,
+    "height": 1125,
+    "srcSet": "/assets/optimized/hero-partners-ref-384.webp 384w, /assets/optimized/hero-partners-ref-640.webp 640w, /assets/optimized/hero-partners-ref-960.webp 960w, /assets/optimized/hero-partners-ref-1280.webp 1280w"
+  },
+  "/assets/hero-product-ref.png": {
+    "src": "/assets/optimized/hero-product-ref.webp",
+    "width": 1309,
+    "height": 1202,
+    "srcSet": "/assets/optimized/hero-product-ref-384.webp 384w, /assets/optimized/hero-product-ref-640.webp 640w, /assets/optimized/hero-product-ref-960.webp 960w, /assets/optimized/hero-product-ref-1280.webp 1280w"
+  },
+  "/assets/hero-rtv-ref.png": {
+    "src": "/assets/optimized/hero-rtv-ref.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/assets/optimized/hero-rtv-ref-384.webp 384w, /assets/optimized/hero-rtv-ref-640.webp 640w, /assets/optimized/hero-rtv-ref-960.webp 960w, /assets/optimized/hero-rtv-ref-1280.webp 1280w"
+  },
+  "/assets/hero-services-ref.png": {
+    "src": "/assets/optimized/hero-services-ref.webp",
+    "width": 1448,
+    "height": 1086,
+    "srcSet": "/assets/optimized/hero-services-ref-384.webp 384w, /assets/optimized/hero-services-ref-640.webp 640w, /assets/optimized/hero-services-ref-960.webp 960w, /assets/optimized/hero-services-ref-1280.webp 1280w"
+  },
+  "/assets/logo-dabrabyt-ref.png": {
+    "src": "/assets/optimized/logo-dabrabyt-ref.webp",
+    "width": 1783,
+    "height": 280,
+    "srcSet": "/assets/optimized/logo-dabrabyt-ref-384.webp 384w, /assets/optimized/logo-dabrabyt-ref-640.webp 640w, /assets/optimized/logo-dabrabyt-ref-960.webp 960w, /assets/optimized/logo-dabrabyt-ref-1280.webp 1280w"
+  },
+  "/assets/logo-geely-ref.png": {
+    "src": "/assets/optimized/logo-geely-ref.webp",
+    "width": 739,
+    "height": 415
+  },
+  "/assets/logo-nescafe.png": {
+    "src": "/assets/optimized/logo-nescafe.webp",
+    "width": 480,
+    "height": 270
+  },
+  "/assets/logo-sosedi-ref.png": {
+    "src": "/assets/optimized/logo-sosedi-ref.webp",
+    "width": 992,
+    "height": 201,
+    "srcSet": "/assets/optimized/logo-sosedi-ref-384.webp 384w, /assets/optimized/logo-sosedi-ref-640.webp 640w, /assets/optimized/logo-sosedi-ref-960.webp 960w"
+  },
+  "/assets/partner-encata-poster.png": {
+    "src": "/assets/optimized/partner-encata-poster.webp",
+    "width": 266,
+    "height": 629
+  },
+  "/assets/partner-logo-encata-ref.png": {
+    "src": "/assets/optimized/partner-logo-encata-ref.webp",
+    "width": 445,
+    "height": 130
+  },
+  "/assets/partners/dabrabyt.png": {
+    "src": "/assets/optimized/partners-dabrabyt.webp",
+    "width": 290,
+    "height": 793
+  },
+  "/assets/partners/employment.png": {
+    "src": "/assets/optimized/partners-employment.webp",
+    "width": 288,
+    "height": 793
+  },
+  "/assets/partners/geely.png": {
+    "src": "/assets/optimized/partners-geely.webp",
+    "width": 290,
+    "height": 793
+  },
+  "/assets/partners/nescafe.png": {
+    "src": "/assets/optimized/partners-nescafe.webp",
+    "width": 290,
+    "height": 793
+  },
+  "/assets/partners/sosedi.png": {
+    "src": "/assets/optimized/partners-sosedi.webp",
+    "width": 290,
+    "height": 793
+  },
+  "/assets/partners/vtb.png": {
+    "src": "/assets/optimized/partners-vtb.webp",
+    "width": 290,
+    "height": 793
+  },
+  "/assets/puzzle-ref.png": {
+    "src": "/assets/optimized/puzzle-ref.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/assets/optimized/puzzle-ref-384.webp 384w, /assets/optimized/puzzle-ref-640.webp 640w, /assets/optimized/puzzle-ref-960.webp 960w, /assets/optimized/puzzle-ref-1280.webp 1280w"
+  },
+  "/assets/remago-logo.png": {
+    "src": "/assets/optimized/remago-logo.webp",
+    "width": 551,
+    "height": 143
+  },
+  "/assets/rtv-commerce.png": {
+    "src": "/assets/optimized/rtv-commerce.webp",
+    "width": 1182,
+    "height": 1331,
+    "srcSet": "/assets/optimized/rtv-commerce-384.webp 384w, /assets/optimized/rtv-commerce-640.webp 640w, /assets/optimized/rtv-commerce-960.webp 960w"
+  },
+  "/assets/rtv-logo.png": {
+    "src": "/assets/optimized/rtv-logo.webp",
+    "width": 1866,
+    "height": 1335,
+    "srcSet": "/assets/optimized/rtv-logo-384.webp 384w, /assets/optimized/rtv-logo-640.webp 640w, /assets/optimized/rtv-logo-960.webp 960w, /assets/optimized/rtv-logo-1280.webp 1280w"
+  },
+  "/assets/rtv-principle-ai.png": {
+    "src": "/assets/optimized/rtv-principle-ai.webp",
+    "width": 80,
+    "height": 80
+  },
+  "/assets/rtv-principle-dooh.png": {
+    "src": "/assets/optimized/rtv-principle-dooh.webp",
+    "width": 84,
+    "height": 80
+  },
+  "/assets/rtv-principle-efficiency.png": {
+    "src": "/assets/optimized/rtv-principle-efficiency.webp",
+    "width": 100,
+    "height": 71
+  },
+  "/assets/rtv-principle-target.png": {
+    "src": "/assets/optimized/rtv-principle-target.webp",
+    "width": 88,
+    "height": 88
+  },
+  "/assets/service-air.png": {
+    "src": "/assets/optimized/service-air.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/assets/optimized/service-air-384.webp 384w, /assets/optimized/service-air-640.webp 640w, /assets/optimized/service-air-960.webp 960w, /assets/optimized/service-air-1280.webp 1280w"
+  },
+  "/assets/service-dooh.png": {
+    "src": "/assets/optimized/service-dooh.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/assets/optimized/service-dooh-384.webp 384w, /assets/optimized/service-dooh-640.webp 640w, /assets/optimized/service-dooh-960.webp 960w, /assets/optimized/service-dooh-1280.webp 1280w"
+  },
+  "/assets/service-partners.png": {
+    "src": "/assets/optimized/service-partners.webp",
+    "width": 1536,
+    "height": 1024,
+    "srcSet": "/assets/optimized/service-partners-384.webp 384w, /assets/optimized/service-partners-640.webp 640w, /assets/optimized/service-partners-960.webp 960w, /assets/optimized/service-partners-1280.webp 1280w"
+  },
+  "/assets/smart-audience.png": {
+    "src": "/assets/optimized/smart-audience.webp",
+    "width": 1818,
+    "height": 1118,
+    "srcSet": "/assets/optimized/smart-audience-384.webp 384w, /assets/optimized/smart-audience-640.webp 640w, /assets/optimized/smart-audience-960.webp 960w, /assets/optimized/smart-audience-1280.webp 1280w"
+  },
+  "/assets/subpage-location-card-body.png": {
+    "src": "/assets/optimized/subpage-location-card-body.webp",
+    "width": 555,
+    "height": 597
+  },
+  "/assets/subpage-map-mascot.png": {
+    "src": "/assets/optimized/subpage-map-mascot.webp",
+    "width": 295,
+    "height": 350
+  },
+  "/assets/subpage-pricing-board.png": {
+    "src": "/assets/optimized/subpage-pricing-board.webp",
+    "width": 182,
+    "height": 368
+  },
+  "/assets/home/about-mascot.webp": {
+    "src": "/assets/home/about-mascot.webp",
+    "width": 1199,
+    "height": 1312,
+    "srcSet": "/assets/optimized/home-about-mascot-384.webp 384w, /assets/optimized/home-about-mascot-640.webp 640w, /assets/optimized/home-about-mascot-960.webp 960w"
+  },
+  "/assets/home/arena-center.webp": {
+    "src": "/assets/home/arena-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-arena-center-384.webp 384w, /assets/optimized/home-arena-center-640.webp 640w, /assets/optimized/home-arena-center-960.webp 960w, /assets/optimized/home-arena-center-1280.webp 1280w"
+  },
+  "/assets/home/arena-side.webp": {
+    "src": "/assets/home/arena-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-arena-side-384.webp 384w, /assets/optimized/home-arena-side-640.webp 640w, /assets/optimized/home-arena-side-960.webp 960w, /assets/optimized/home-arena-side-1280.webp 1280w"
+  },
+  "/assets/home/billboard-center.webp": {
+    "src": "/assets/home/billboard-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-billboard-center-384.webp 384w, /assets/optimized/home-billboard-center-640.webp 640w, /assets/optimized/home-billboard-center-960.webp 960w, /assets/optimized/home-billboard-center-1280.webp 1280w"
+  },
+  "/assets/home/billboard-side.webp": {
+    "src": "/assets/home/billboard-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-billboard-side-384.webp 384w, /assets/optimized/home-billboard-side-640.webp 640w, /assets/optimized/home-billboard-side-960.webp 960w, /assets/optimized/home-billboard-side-1280.webp 1280w"
+  },
+  "/assets/home/bus-stop-center.webp": {
+    "src": "/assets/home/bus-stop-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-bus-stop-center-384.webp 384w, /assets/optimized/home-bus-stop-center-640.webp 640w, /assets/optimized/home-bus-stop-center-960.webp 960w, /assets/optimized/home-bus-stop-center-1280.webp 1280w"
+  },
+  "/assets/home/bus-stop-side.webp": {
+    "src": "/assets/home/bus-stop-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-bus-stop-side-384.webp 384w, /assets/optimized/home-bus-stop-side-640.webp 640w, /assets/optimized/home-bus-stop-side-960.webp 960w, /assets/optimized/home-bus-stop-side-1280.webp 1280w"
+  },
+  "/assets/home/cafe-center.webp": {
+    "src": "/assets/home/cafe-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-cafe-center-384.webp 384w, /assets/optimized/home-cafe-center-640.webp 640w, /assets/optimized/home-cafe-center-960.webp 960w, /assets/optimized/home-cafe-center-1280.webp 1280w"
+  },
+  "/assets/home/cafe-side.webp": {
+    "src": "/assets/home/cafe-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-cafe-side-384.webp 384w, /assets/optimized/home-cafe-side-640.webp 640w, /assets/optimized/home-cafe-side-960.webp 960w, /assets/optimized/home-cafe-side-1280.webp 1280w"
+  },
+  "/assets/home/circular-screen-center.webp": {
+    "src": "/assets/home/circular-screen-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-circular-screen-center-384.webp 384w, /assets/optimized/home-circular-screen-center-640.webp 640w, /assets/optimized/home-circular-screen-center-960.webp 960w, /assets/optimized/home-circular-screen-center-1280.webp 1280w"
+  },
+  "/assets/home/circular-screen-side.webp": {
+    "src": "/assets/home/circular-screen-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-circular-screen-side-384.webp 384w, /assets/optimized/home-circular-screen-side-640.webp 640w, /assets/optimized/home-circular-screen-side-960.webp 960w, /assets/optimized/home-circular-screen-side-1280.webp 1280w"
+  },
+  "/assets/home/gas-station-center.webp": {
+    "src": "/assets/home/gas-station-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-gas-station-center-384.webp 384w, /assets/optimized/home-gas-station-center-640.webp 640w, /assets/optimized/home-gas-station-center-960.webp 960w, /assets/optimized/home-gas-station-center-1280.webp 1280w"
+  },
+  "/assets/home/gas-station-side.webp": {
+    "src": "/assets/home/gas-station-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-gas-station-side-384.webp 384w, /assets/optimized/home-gas-station-side-640.webp 640w, /assets/optimized/home-gas-station-side-960.webp 960w, /assets/optimized/home-gas-station-side-1280.webp 1280w"
+  },
+  "/assets/home/hero-composition.webp": {
+    "src": "/assets/home/hero-composition.webp",
+    "width": 1440,
+    "height": 1340,
+    "srcSet": "/assets/optimized/home-hero-composition-384.webp 384w, /assets/optimized/home-hero-composition-640.webp 640w, /assets/optimized/home-hero-composition-960.webp 960w, /assets/optimized/home-hero-composition-1280.webp 1280w"
+  },
+  "/assets/home/medical-center.webp": {
+    "src": "/assets/home/medical-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-medical-center-384.webp 384w, /assets/optimized/home-medical-center-640.webp 640w, /assets/optimized/home-medical-center-960.webp 960w, /assets/optimized/home-medical-center-1280.webp 1280w"
+  },
+  "/assets/home/medical-side.webp": {
+    "src": "/assets/home/medical-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-medical-side-384.webp 384w, /assets/optimized/home-medical-side-640.webp 640w, /assets/optimized/home-medical-side-960.webp 960w, /assets/optimized/home-medical-side-1280.webp 1280w"
+  },
+  "/assets/home/residential-entrance-center.webp": {
+    "src": "/assets/home/residential-entrance-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-residential-entrance-center-384.webp 384w, /assets/optimized/home-residential-entrance-center-640.webp 640w, /assets/optimized/home-residential-entrance-center-960.webp 960w, /assets/optimized/home-residential-entrance-center-1280.webp 1280w"
+  },
+  "/assets/home/residential-entrance-side.webp": {
+    "src": "/assets/home/residential-entrance-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-residential-entrance-side-384.webp 384w, /assets/optimized/home-residential-entrance-side-640.webp 640w, /assets/optimized/home-residential-entrance-side-960.webp 960w, /assets/optimized/home-residential-entrance-side-1280.webp 1280w"
+  },
+  "/assets/home/shop-center.webp": {
+    "src": "/assets/home/shop-center.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-shop-center-384.webp 384w, /assets/optimized/home-shop-center-640.webp 640w, /assets/optimized/home-shop-center-960.webp 960w, /assets/optimized/home-shop-center-1280.webp 1280w"
+  },
+  "/assets/home/shop-side.webp": {
+    "src": "/assets/home/shop-side.webp",
+    "width": 1696,
+    "height": 1272,
+    "srcSet": "/assets/optimized/home-shop-side-384.webp 384w, /assets/optimized/home-shop-side-640.webp 640w, /assets/optimized/home-shop-side-960.webp 960w, /assets/optimized/home-shop-side-1280.webp 1280w"
+  },
+  "/assets/partners/slides/ceramom-top-center.webp": {
+    "src": "/assets/partners/slides/ceramom-top-center.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-ceramom-top-center-384.webp 384w, /assets/optimized/partners-slides-ceramom-top-center-640.webp 640w, /assets/partners/slides/ceramom-top-center.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/ceramom-top-left.webp": {
+    "src": "/assets/partners/slides/ceramom-top-left.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-ceramom-top-left-384.webp 384w, /assets/optimized/partners-slides-ceramom-top-left-640.webp 640w, /assets/partners/slides/ceramom-top-left.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/ceramom-top-right.webp": {
+    "src": "/assets/partners/slides/ceramom-top-right.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-ceramom-top-right-384.webp 384w, /assets/optimized/partners-slides-ceramom-top-right-640.webp 640w, /assets/partners/slides/ceramom-top-right.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/dabrabyt-center.webp": {
+    "src": "/assets/partners/slides/dabrabyt-center.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-dabrabyt-center-384.webp 384w, /assets/optimized/partners-slides-dabrabyt-center-640.webp 640w, /assets/partners/slides/dabrabyt-center.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/dabrabyt-left.webp": {
+    "src": "/assets/partners/slides/dabrabyt-left.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-dabrabyt-left-384.webp 384w, /assets/optimized/partners-slides-dabrabyt-left-640.webp 640w, /assets/partners/slides/dabrabyt-left.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/dabrabyt-right.webp": {
+    "src": "/assets/partners/slides/dabrabyt-right.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-dabrabyt-right-384.webp 384w, /assets/optimized/partners-slides-dabrabyt-right-640.webp 640w, /assets/partners/slides/dabrabyt-right.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/employment-center.webp": {
+    "src": "/assets/partners/slides/employment-center.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-employment-center-384.webp 384w, /assets/optimized/partners-slides-employment-center-640.webp 640w, /assets/partners/slides/employment-center.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/employment-left.webp": {
+    "src": "/assets/partners/slides/employment-left.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-employment-left-384.webp 384w, /assets/optimized/partners-slides-employment-left-640.webp 640w, /assets/partners/slides/employment-left.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/employment-right.webp": {
+    "src": "/assets/partners/slides/employment-right.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-employment-right-384.webp 384w, /assets/optimized/partners-slides-employment-right-640.webp 640w, /assets/partners/slides/employment-right.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/geely-center.webp": {
+    "src": "/assets/partners/slides/geely-center.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-geely-center-384.webp 384w, /assets/optimized/partners-slides-geely-center-640.webp 640w, /assets/partners/slides/geely-center.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/geely-left.webp": {
+    "src": "/assets/partners/slides/geely-left.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-geely-left-384.webp 384w, /assets/optimized/partners-slides-geely-left-640.webp 640w, /assets/partners/slides/geely-left.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/geely-right.webp": {
+    "src": "/assets/partners/slides/geely-right.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-geely-right-384.webp 384w, /assets/optimized/partners-slides-geely-right-640.webp 640w, /assets/partners/slides/geely-right.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/mtbank-center.webp": {
+    "src": "/assets/partners/slides/mtbank-center.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-mtbank-center-384.webp 384w, /assets/optimized/partners-slides-mtbank-center-640.webp 640w, /assets/partners/slides/mtbank-center.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/mtbank-left.webp": {
+    "src": "/assets/partners/slides/mtbank-left.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-mtbank-left-384.webp 384w, /assets/optimized/partners-slides-mtbank-left-640.webp 640w, /assets/partners/slides/mtbank-left.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/mtbank-right.webp": {
+    "src": "/assets/partners/slides/mtbank-right.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-mtbank-right-384.webp 384w, /assets/optimized/partners-slides-mtbank-right-640.webp 640w, /assets/partners/slides/mtbank-right.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/nescafe-center.webp": {
+    "src": "/assets/partners/slides/nescafe-center.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-nescafe-center-384.webp 384w, /assets/optimized/partners-slides-nescafe-center-640.webp 640w, /assets/partners/slides/nescafe-center.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/nescafe-left.webp": {
+    "src": "/assets/partners/slides/nescafe-left.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-nescafe-left-384.webp 384w, /assets/optimized/partners-slides-nescafe-left-640.webp 640w, /assets/partners/slides/nescafe-left.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/nescafe-right.webp": {
+    "src": "/assets/partners/slides/nescafe-right.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-nescafe-right-384.webp 384w, /assets/optimized/partners-slides-nescafe-right-640.webp 640w, /assets/partners/slides/nescafe-right.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/sosedi-center.webp": {
+    "src": "/assets/partners/slides/sosedi-center.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-sosedi-center-384.webp 384w, /assets/optimized/partners-slides-sosedi-center-640.webp 640w, /assets/partners/slides/sosedi-center.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/sosedi-left.webp": {
+    "src": "/assets/partners/slides/sosedi-left.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-sosedi-left-384.webp 384w, /assets/optimized/partners-slides-sosedi-left-640.webp 640w, /assets/partners/slides/sosedi-left.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/sosedi-right.webp": {
+    "src": "/assets/partners/slides/sosedi-right.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-sosedi-right-384.webp 384w, /assets/optimized/partners-slides-sosedi-right-640.webp 640w, /assets/partners/slides/sosedi-right.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/tri-ceny-center.webp": {
+    "src": "/assets/partners/slides/tri-ceny-center.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-tri-ceny-center-384.webp 384w, /assets/optimized/partners-slides-tri-ceny-center-640.webp 640w, /assets/partners/slides/tri-ceny-center.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/tri-ceny-left.webp": {
+    "src": "/assets/partners/slides/tri-ceny-left.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-tri-ceny-left-384.webp 384w, /assets/optimized/partners-slides-tri-ceny-left-640.webp 640w, /assets/partners/slides/tri-ceny-left.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/partners/slides/tri-ceny-right.webp": {
+    "src": "/assets/partners/slides/tri-ceny-right.webp",
+    "width": 900,
+    "height": 1500,
+    "srcSet": "/assets/optimized/partners-slides-tri-ceny-right-384.webp 384w, /assets/optimized/partners-slides-tri-ceny-right-640.webp 640w, /assets/partners/slides/tri-ceny-right.webp 900w",
+    "sizes": "(max-width: 600px) calc(100vw - 96px), 480px"
+  },
+  "/assets/products/custom/arena-center.webp": {
+    "src": "/assets/products/custom/arena-center.webp",
+    "width": 902,
+    "height": 636,
+    "srcSet": "/assets/optimized/products-custom-arena-center-384.webp 384w, /assets/optimized/products-custom-arena-center-640.webp 640w, /assets/products/custom/arena-center.webp 902w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/arena-side.webp": {
+    "src": "/assets/products/custom/arena-side.webp",
+    "width": 848,
+    "height": 595,
+    "srcSet": "/assets/optimized/products-custom-arena-side-384.webp 384w, /assets/optimized/products-custom-arena-side-640.webp 640w, /assets/products/custom/arena-side.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/billboard-center.webp": {
+    "src": "/assets/products/custom/billboard-center.webp",
+    "width": 874,
+    "height": 683,
+    "srcSet": "/assets/optimized/products-custom-billboard-center-384.webp 384w, /assets/optimized/products-custom-billboard-center-640.webp 640w, /assets/products/custom/billboard-center.webp 874w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/billboard-side.webp": {
+    "src": "/assets/products/custom/billboard-side.webp",
+    "width": 876,
+    "height": 603,
+    "srcSet": "/assets/optimized/products-custom-billboard-side-384.webp 384w, /assets/optimized/products-custom-billboard-side-640.webp 640w, /assets/products/custom/billboard-side.webp 876w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/bus-stop-center.webp": {
+    "src": "/assets/products/custom/bus-stop-center.webp",
+    "width": 874,
+    "height": 656,
+    "srcSet": "/assets/optimized/products-custom-bus-stop-center-384.webp 384w, /assets/optimized/products-custom-bus-stop-center-640.webp 640w, /assets/products/custom/bus-stop-center.webp 874w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/bus-stop-side.webp": {
+    "src": "/assets/products/custom/bus-stop-side.webp",
+    "width": 874,
+    "height": 603,
+    "srcSet": "/assets/optimized/products-custom-bus-stop-side-384.webp 384w, /assets/optimized/products-custom-bus-stop-side-640.webp 640w, /assets/products/custom/bus-stop-side.webp 874w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/cafe-center.webp": {
+    "src": "/assets/products/custom/cafe-center.webp",
+    "width": 896,
+    "height": 684,
+    "srcSet": "/assets/optimized/products-custom-cafe-center-384.webp 384w, /assets/optimized/products-custom-cafe-center-640.webp 640w, /assets/products/custom/cafe-center.webp 896w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/city-center.webp": {
+    "src": "/assets/products/custom/city-center.webp",
+    "width": 848,
+    "height": 636,
+    "srcSet": "/assets/optimized/products-custom-city-center-384.webp 384w, /assets/optimized/products-custom-city-center-640.webp 640w, /assets/products/custom/city-center.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/city-side.webp": {
+    "src": "/assets/products/custom/city-side.webp",
+    "width": 848,
+    "height": 595,
+    "srcSet": "/assets/optimized/products-custom-city-side-384.webp 384w, /assets/optimized/products-custom-city-side-640.webp 640w, /assets/products/custom/city-side.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/facade-center.webp": {
+    "src": "/assets/products/custom/facade-center.webp",
+    "width": 876,
+    "height": 639,
+    "srcSet": "/assets/optimized/products-custom-facade-center-384.webp 384w, /assets/optimized/products-custom-facade-center-640.webp 640w, /assets/products/custom/facade-center.webp 876w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/facade-side.webp": {
+    "src": "/assets/products/custom/facade-side.webp",
+    "width": 876,
+    "height": 605,
+    "srcSet": "/assets/optimized/products-custom-facade-side-384.webp 384w, /assets/optimized/products-custom-facade-side-640.webp 640w, /assets/products/custom/facade-side.webp 876w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/food-court-center.webp": {
+    "src": "/assets/products/custom/food-court-center.webp",
+    "width": 874,
+    "height": 689,
+    "srcSet": "/assets/optimized/products-custom-food-court-center-384.webp 384w, /assets/optimized/products-custom-food-court-center-640.webp 640w, /assets/products/custom/food-court-center.webp 874w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/food-court-side.webp": {
+    "src": "/assets/products/custom/food-court-side.webp",
+    "width": 874,
+    "height": 603,
+    "srcSet": "/assets/optimized/products-custom-food-court-side-384.webp 384w, /assets/optimized/products-custom-food-court-side-640.webp 640w, /assets/products/custom/food-court-side.webp 874w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/gas-station-center.webp": {
+    "src": "/assets/products/custom/gas-station-center.webp",
+    "width": 848,
+    "height": 636,
+    "srcSet": "/assets/optimized/products-custom-gas-station-center-384.webp 384w, /assets/optimized/products-custom-gas-station-center-640.webp 640w, /assets/products/custom/gas-station-center.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/gas-station-side.webp": {
+    "src": "/assets/products/custom/gas-station-side.webp",
+    "width": 848,
+    "height": 595,
+    "srcSet": "/assets/optimized/products-custom-gas-station-side-384.webp 384w, /assets/optimized/products-custom-gas-station-side-640.webp 640w, /assets/products/custom/gas-station-side.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/lift-center.webp": {
+    "src": "/assets/products/custom/lift-center.webp",
+    "width": 874,
+    "height": 656,
+    "srcSet": "/assets/optimized/products-custom-lift-center-384.webp 384w, /assets/optimized/products-custom-lift-center-640.webp 640w, /assets/products/custom/lift-center.webp 874w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/lift-side.webp": {
+    "src": "/assets/products/custom/lift-side.webp",
+    "width": 874,
+    "height": 603,
+    "srcSet": "/assets/optimized/products-custom-lift-side-384.webp 384w, /assets/optimized/products-custom-lift-side-640.webp 640w, /assets/products/custom/lift-side.webp 874w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/mall-center.webp": {
+    "src": "/assets/products/custom/mall-center.webp",
+    "width": 848,
+    "height": 636,
+    "srcSet": "/assets/optimized/products-custom-mall-center-384.webp 384w, /assets/optimized/products-custom-mall-center-640.webp 640w, /assets/products/custom/mall-center.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/mall-side.webp": {
+    "src": "/assets/products/custom/mall-side.webp",
+    "width": 850,
+    "height": 595,
+    "srcSet": "/assets/optimized/products-custom-mall-side-384.webp 384w, /assets/optimized/products-custom-mall-side-640.webp 640w, /assets/products/custom/mall-side.webp 850w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/metro-center.webp": {
+    "src": "/assets/products/custom/metro-center.webp",
+    "width": 870,
+    "height": 609,
+    "srcSet": "/assets/optimized/products-custom-metro-center-384.webp 384w, /assets/optimized/products-custom-metro-center-640.webp 640w, /assets/products/custom/metro-center.webp 870w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/metro-side.webp": {
+    "src": "/assets/products/custom/metro-side.webp",
+    "width": 860,
+    "height": 602,
+    "srcSet": "/assets/optimized/products-custom-metro-side-384.webp 384w, /assets/optimized/products-custom-metro-side-640.webp 640w, /assets/products/custom/metro-side.webp 860w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/park-center.webp": {
+    "src": "/assets/products/custom/park-center.webp",
+    "width": 848,
+    "height": 636,
+    "srcSet": "/assets/optimized/products-custom-park-center-384.webp 384w, /assets/optimized/products-custom-park-center-640.webp 640w, /assets/products/custom/park-center.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/park-side.webp": {
+    "src": "/assets/products/custom/park-side.webp",
+    "width": 848,
+    "height": 595,
+    "srcSet": "/assets/optimized/products-custom-park-side-384.webp 384w, /assets/optimized/products-custom-park-side-640.webp 640w, /assets/products/custom/park-side.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/reception-center.webp": {
+    "src": "/assets/products/custom/reception-center.webp",
+    "width": 896,
+    "height": 684,
+    "srcSet": "/assets/optimized/products-custom-reception-center-384.webp 384w, /assets/optimized/products-custom-reception-center-640.webp 640w, /assets/products/custom/reception-center.webp 896w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/reception-side.webp": {
+    "src": "/assets/products/custom/reception-side.webp",
+    "width": 896,
+    "height": 643,
+    "srcSet": "/assets/optimized/products-custom-reception-side-384.webp 384w, /assets/optimized/products-custom-reception-side-640.webp 640w, /assets/products/custom/reception-side.webp 896w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/residential-center.webp": {
+    "src": "/assets/products/custom/residential-center.webp",
+    "width": 874,
+    "height": 675,
+    "srcSet": "/assets/optimized/products-custom-residential-center-384.webp 384w, /assets/optimized/products-custom-residential-center-640.webp 640w, /assets/products/custom/residential-center.webp 874w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/residential-side.webp": {
+    "src": "/assets/products/custom/residential-side.webp",
+    "width": 876,
+    "height": 603,
+    "srcSet": "/assets/optimized/products-custom-residential-side-384.webp 384w, /assets/optimized/products-custom-residential-side-640.webp 640w, /assets/products/custom/residential-side.webp 876w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/street-center.webp": {
+    "src": "/assets/products/custom/street-center.webp",
+    "width": 870,
+    "height": 636,
+    "srcSet": "/assets/optimized/products-custom-street-center-384.webp 384w, /assets/optimized/products-custom-street-center-640.webp 640w, /assets/products/custom/street-center.webp 870w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/street-side.webp": {
+    "src": "/assets/products/custom/street-side.webp",
+    "width": 848,
+    "height": 595,
+    "srcSet": "/assets/optimized/products-custom-street-side-384.webp 384w, /assets/optimized/products-custom-street-side-640.webp 640w, /assets/products/custom/street-side.webp 848w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/supermarket-center.webp": {
+    "src": "/assets/products/custom/supermarket-center.webp",
+    "width": 896,
+    "height": 684,
+    "srcSet": "/assets/optimized/products-custom-supermarket-center-384.webp 384w, /assets/optimized/products-custom-supermarket-center-640.webp 640w, /assets/products/custom/supermarket-center.webp 896w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/custom/supermarket-side.webp": {
+    "src": "/assets/products/custom/supermarket-side.webp",
+    "width": 896,
+    "height": 643,
+    "srcSet": "/assets/optimized/products-custom-supermarket-side-384.webp 384w, /assets/optimized/products-custom-supermarket-side-640.webp 640w, /assets/products/custom/supermarket-side.webp 896w",
+    "sizes": "(max-width: 600px) calc(100vw - 90px), (max-width: 900px) calc(100vw - 200px), 900px"
+  },
+  "/assets/products/outdoor-board-mascot.webp": {
+    "src": "/assets/products/outdoor-board-mascot.webp",
+    "width": 628,
+    "height": 784,
+    "srcSet": "/assets/optimized/products-outdoor-board-mascot-384.webp 384w, /assets/products/outdoor-board-mascot.webp 628w"
+  },
+  "/assets/services/locations/angarskaya-17.webp": {
+    "src": "/assets/services/locations/angarskaya-17.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-angarskaya-17-384.webp 384w, /assets/services/locations/angarskaya-17.webp 489w"
+  },
+  "/assets/services/locations/borovlyany-40-let-pobedy.webp": {
+    "src": "/assets/services/locations/borovlyany-40-let-pobedy.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-borovlyany-40-let-pobedy-384.webp 384w, /assets/services/locations/borovlyany-40-let-pobedy.webp 489w"
+  },
+  "/assets/services/locations/gintovta-12.webp": {
+    "src": "/assets/services/locations/gintovta-12.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-gintovta-12-384.webp 384w, /assets/services/locations/gintovta-12.webp 489w"
+  },
+  "/assets/services/locations/golodeda-15.webp": {
+    "src": "/assets/services/locations/golodeda-15.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-golodeda-15-384.webp 384w, /assets/services/locations/golodeda-15.webp 489w"
+  },
+  "/assets/services/locations/horuzhey-17.webp": {
+    "src": "/assets/services/locations/horuzhey-17.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-horuzhey-17-384.webp 384w, /assets/services/locations/horuzhey-17.webp 489w"
+  },
+  "/assets/services/locations/kalvariyskaya-2.webp": {
+    "src": "/assets/services/locations/kalvariyskaya-2.webp",
+    "width": 490,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-kalvariyskaya-2-384.webp 384w, /assets/services/locations/kalvariyskaya-2.webp 490w"
+  },
+  "/assets/services/locations/leschinskogo-1.webp": {
+    "src": "/assets/services/locations/leschinskogo-1.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-leschinskogo-1-384.webp 384w, /assets/services/locations/leschinskogo-1.webp 489w"
+  },
+  "/assets/services/locations/libknehta-106a.webp": {
+    "src": "/assets/services/locations/libknehta-106a.webp",
+    "width": 490,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-libknehta-106a-384.webp 384w, /assets/services/locations/libknehta-106a.webp 490w"
+  },
+  "/assets/services/locations/logoyskiy-trakt-37.webp": {
+    "src": "/assets/services/locations/logoyskiy-trakt-37.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-logoyskiy-trakt-37-384.webp 384w, /assets/services/locations/logoyskiy-trakt-37.webp 489w"
+  },
+  "/assets/services/locations/miroshnichenko-3.webp": {
+    "src": "/assets/services/locations/miroshnichenko-3.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-miroshnichenko-3-384.webp 384w, /assets/services/locations/miroshnichenko-3.webp 489w"
+  },
+  "/assets/services/locations/moskovskaya-12.webp": {
+    "src": "/assets/services/locations/moskovskaya-12.webp",
+    "width": 490,
+    "height": 433,
+    "srcSet": "/assets/optimized/services-locations-moskovskaya-12-384.webp 384w, /assets/services/locations/moskovskaya-12.webp 490w"
+  },
+  "/assets/services/locations/nemanskaya-46.webp": {
+    "src": "/assets/services/locations/nemanskaya-46.webp",
+    "width": 489,
+    "height": 433,
+    "srcSet": "/assets/optimized/services-locations-nemanskaya-46-384.webp 384w, /assets/services/locations/nemanskaya-46.webp 489w"
+  },
+  "/assets/services/locations/nikiforova-45.webp": {
+    "src": "/assets/services/locations/nikiforova-45.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-nikiforova-45-384.webp 384w, /assets/services/locations/nikiforova-45.webp 489w"
+  },
+  "/assets/services/locations/olesheva-1.webp": {
+    "src": "/assets/services/locations/olesheva-1.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-olesheva-1-384.webp 384w, /assets/services/locations/olesheva-1.webp 489w"
+  },
+  "/assets/services/locations/pobediteley-49.webp": {
+    "src": "/assets/services/locations/pobediteley-49.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-pobediteley-49-384.webp 384w, /assets/services/locations/pobediteley-49.webp 489w"
+  },
+  "/assets/services/locations/pobediteley-89.webp": {
+    "src": "/assets/services/locations/pobediteley-89.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-pobediteley-89-384.webp 384w, /assets/services/locations/pobediteley-89.webp 489w"
+  },
+  "/assets/services/locations/rokossovskogo-35.webp": {
+    "src": "/assets/services/locations/rokossovskogo-35.webp",
+    "width": 489,
+    "height": 433,
+    "srcSet": "/assets/optimized/services-locations-rokossovskogo-35-384.webp 384w, /assets/services/locations/rokossovskogo-35.webp 489w"
+  },
+  "/assets/services/locations/rokossovskogo-62.webp": {
+    "src": "/assets/services/locations/rokossovskogo-62.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-rokossovskogo-62-384.webp 384w, /assets/services/locations/rokossovskogo-62.webp 489w"
+  },
+  "/assets/services/locations/russiyanova-6.webp": {
+    "src": "/assets/services/locations/russiyanova-6.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-russiyanova-6-384.webp 384w, /assets/services/locations/russiyanova-6.webp 489w"
+  },
+  "/assets/services/locations/selitskogo-65.webp": {
+    "src": "/assets/services/locations/selitskogo-65.webp",
+    "width": 391,
+    "height": 353,
+    "srcSet": "/assets/optimized/services-locations-selitskogo-65-384.webp 384w, /assets/services/locations/selitskogo-65.webp 391w"
+  },
+  "/assets/services/locations/shirokaya-16a.webp": {
+    "src": "/assets/services/locations/shirokaya-16a.webp",
+    "width": 490,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-shirokaya-16a-384.webp 384w, /assets/services/locations/shirokaya-16a.webp 490w"
+  },
+  "/assets/services/locations/surganova-50.webp": {
+    "src": "/assets/services/locations/surganova-50.webp",
+    "width": 490,
+    "height": 433,
+    "srcSet": "/assets/optimized/services-locations-surganova-50-384.webp 384w, /assets/services/locations/surganova-50.webp 490w"
+  },
+  "/assets/services/locations/timiryazeva-10.webp": {
+    "src": "/assets/services/locations/timiryazeva-10.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-timiryazeva-10-384.webp 384w, /assets/services/locations/timiryazeva-10.webp 489w"
+  },
+  "/assets/services/locations/tolbuhina-14.webp": {
+    "src": "/assets/services/locations/tolbuhina-14.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-tolbuhina-14-384.webp 384w, /assets/services/locations/tolbuhina-14.webp 489w"
+  },
+  "/assets/services/locations/vostochnaya-48.webp": {
+    "src": "/assets/services/locations/vostochnaya-48.webp",
+    "width": 489,
+    "height": 432,
+    "srcSet": "/assets/optimized/services-locations-vostochnaya-48-384.webp 384w, /assets/services/locations/vostochnaya-48.webp 489w"
+  },
+  "/assets/services/minsk-locations-map.webp": {
+    "src": "/assets/services/minsk-locations-map.webp",
+    "width": 669,
+    "height": 483,
+    "srcSet": "/assets/optimized/services-minsk-locations-map-384.webp 384w, /assets/optimized/services-minsk-locations-map-640.webp 640w, /assets/services/minsk-locations-map.webp 669w"
+  }
+}

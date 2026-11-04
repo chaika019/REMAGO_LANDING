@@ -1,0 +1,76 @@
+.product-work-layout .product-analytics-prompt { color: #111; margin: 28px 0 18px; font-size: clamp(20px, 2vw, 28px); }
+.product-custom-section .reference-card { padding: 44px 30px; text-align: center; }
+.custom-board-slide { margin: 0; width: 100%; height: 100%; display: grid; place-items: center; }
+.custom-board-slide img { width: 100%; height: 100%; object-fit: contain; }
+.product-custom-section .design-carousel__slide { background: transparent; box-shadow: none; border-radius: 0; }
+.product-custom-section .design-carousel__slide--left,
+.product-custom-section .design-carousel__slide--right { opacity: 1; }
+.service-card { color: inherit; text-decoration: none; }
+.service-card:focus-visible, .channel-toggle:focus-visible { outline: 3px solid var(--yellow); outline-offset: 5px; }
+.service-card:hover { box-shadow: 0 8px 24px rgb(0 0 0 / 18%); }
+.channel-toggle { width: 100%; display: block; border: 0; background: transparent; padding: 0; cursor: pointer; color: inherit; font: inherit; }
+.rtv-page .channel-card { container-type: inline-size; margin-top: 0; }
+.rtv-page .channel-card__visual { position: relative; height: auto; aspect-ratio: 250 / 422; }
+.rtv-page .channel-card__visual img { height: 100%; width: 100%; }
+.rtv-page .channel-card h3 { font-size: clamp(14px, 8cqi, 25px); gap: 6px; overflow-wrap: anywhere; }
+.rtv-page .channel-card h3 > span { flex-shrink: 0; }
+.channel-description { padding: 20px 10px; border: 1px solid var(--yellow); border-radius: 12px; background: #fffbea; }
+.channel-description[hidden] { display: none; }
+.callback-form textarea { width: 100%; border: 1px solid #bbb; border-radius: 8px; padding: 14px; resize: vertical; font: inherit; font-size: 22px; }
+.contact-dialog--rtv .callback-form__mascot, .contact-dialog--proposal .callback-form__mascot { display: none; }
+.advertising-page--reference .ad-location-card--live { padding: 24px; height: auto; min-height: 860px; overflow: visible; }
+.advertising-page--reference .ad-location-card--live h3 { margin: 0 0 20px; height: auto; flex: 0 0 auto; min-height: 70px; display: grid; place-items: center; }
+.advertising-page--reference .ad-location-card--live > .ad-location-photo { flex: none; height: auto; aspect-ratio: 473 / 418; }
+.ad-location-photo { width: 100%; aspect-ratio: 473 / 418; object-fit: contain; border-radius: 20px; }
+.ad-location-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 22px 0; font-size: 18px; }
+.ad-location-facts dt { font-weight: 700; }
+.ad-location-facts dd { margin: 5px 0 0; }
+.ad-location-bonus { font-size: 16px; margin: 0 0 18px; }
+.ad-location-card--live h4 { margin: 0 0 12px; font-size: 19px; }
+.location-characteristics { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+.location-characteristic { position: relative; }
+.location-characteristic button { display: grid; place-items: center; width: 38px; height: 38px; padding: 5px; border: 1px solid #d5d5d5; border-radius: 50%; cursor: pointer; background: white; }
+.location-characteristic button img { width: 100%; height: 100%; object-fit: contain; }
+.location-characteristic button:focus-visible { outline: 2px solid var(--yellow); outline-offset: 2px; }
+.location-characteristic__tooltip { display: none; position: absolute; bottom: calc(100% + 8px); left: 50%; width: 240px; max-width: 65vw; transform: translateX(-50%); background: white; color: #111; border: 1px solid var(--yellow); border-radius: 8px; box-shadow: 0 4px 18px rgb(0 0 0 / 18%); padding: 14px; font-size: 16px; line-height: 1.4; z-index: 10; }
+.location-characteristic__tooltip.is-open { display: block; }
+.advertising-page--reference .ad-location-card--live .ad-location-card__map-btn { position: static; margin-top: auto; align-self: center; text-decoration: none; }
+.ad-address-table tbody tr { cursor: pointer; }
+.ad-yandex-map { display: block; position: relative; border-radius: 24px; overflow: hidden; }
+.ad-yandex-map img { width: 100%; height: 100%; object-fit: cover; }
+.ad-yandex-map span { position: absolute; bottom: 16px; left: 16px; right: 16px; background: var(--yellow); color: #111; border-radius: 8px; padding: 14px; text-align: center; font-size: 20px; }
+.page-hero--product .product-hero-visual .product-hero-image--outdoor { padding: 0; }
+@media (max-width: 600px) {
+  .advertising-page--reference .ad-location-card--live { padding: 20px 14px; min-height: 790px; }
+  .ad-location-facts { font-size: 15px; gap: 14px; }
+  .location-characteristics { gap: 6px; }
+  .location-characteristic button { width: 34px; height: 34px; }
+  .product-custom-section .reference-card { padding: 28px 16px; }
+  .home-page .home-contact__card::before, .home-page .home-contact__card::after { width: 150px; height: 62px; }
+}
+.advertising-page--reference .ad-location-slider__stage { height: auto; }
+.product-custom-section .design-carousel__dots { margin-top: 12px; }
+.product-custom-section .design-carousel__dots span { background: #d5d5d5; box-shadow: none; }
+.product-custom-section .design-carousel__dots [aria-current="true"] span { background: var(--yellow); transform: scale(1.15); }
+.contact-dialog--rtv .callback-form, .contact-dialog--proposal .callback-form { padding-bottom: 42px; }
+/* Keep descriptions inside the card on narrow screens. */
+.location-characteristics { position: relative; }
+.location-characteristic { position: static; }
+.location-characteristic__tooltip { left: 0; transform: none; width: 320px; max-width: 100%; }
+
+/* Keyboard access and compact landscape navigation. */
+.lang-button { cursor: default; }
+:where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: 3px solid #805f00;
+  outline-offset: 4px;
+}
+.rtv-page--live .rtv-hero-video:focus-visible { outline: 3px solid #805f00; outline-offset: 4px; }
+.skip-link { position: fixed; top: 12px; left: 16px; z-index: 100; padding: 14px 20px; background: #fff; border: 2px solid #111; border-radius: 8px; transform: translateY(-180%); }
+.skip-link:focus { transform: none; }
+#main-content { scroll-margin-top: 20px; }
+@media (max-width: 1050px) {
+  .nav { max-height: calc(100dvh - 88px); overflow-y: auto; overscroll-behavior: contain; }
+}
+@media (max-width: 600px) {
+  .nav { max-height: calc(100dvh - 76px); }
+}

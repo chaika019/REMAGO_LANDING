@@ -1,0 +1,18 @@
+[
+  { "id": "three-prices", "channel": "marketing", "title": "3 цены", "source": "три цены.mp4" },
+  { "id": "a1", "channel": "marketing", "title": "А1", "source": "a1.mp4" },
+  { "id": "segalopttorg", "channel": "marketing", "title": "Сегалоптторг", "source": "Сегалоптторг.mp4" },
+  { "id": "geely", "channel": "marketing", "title": "Джили", "source": "geely.mp4" },
+  { "id": "employment", "channel": "marketing", "title": "СЗН", "source": "сзн.mp4" },
+  { "id": "congratulations", "channel": "marketing", "title": "Поздравления", "source": null },
+  { "id": "vacancies", "channel": "marketing", "title": "Вакансии", "source": "вакансии.mp4" },
+  { "id": "pig-and-mascot", "channel": "marketing", "title": "Свинка + маскот", "source": "свинка+маскот.mp4" },
+  { "id": "social-main", "channel": "social", "title": "Главный сошиал", "source": "Remago Social.mp4" },
+  { "id": "priest", "channel": "social", "title": "Батюшка", "source": null },
+  { "id": "unichel", "channel": "social", "title": "Юнихелл", "source": null },
+  { "id": "help-boy", "channel": "social", "title": "Помощь мальчику", "source": "помощь мальчику.mp4" },
+  { "id": "woman-in-field", "channel": "gbc", "title": "Женщина в поле", "source": "Год_женщины_поле.mp4" },
+  { "id": "emergency", "channel": "gbc", "title": "МЧС (ГТА, Дети)", "source": "МЧС_1.mp4" },
+  { "id": "gbc-general", "channel": "gbc", "title": "Общий ролик", "source": null },
+  { "id": "millennials-and-zoomers", "channel": "hero", "title": "Миллениалы и зумеры", "source": "меллиниалы и зумеры.mp4" }
+]

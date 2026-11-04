@@ -1,0 +1,56 @@
+/* Inline RTV: front-facing REMAGO cabinet, with video inside its screen. */
+.rtv-page--live .rtv-hero-video { cursor: pointer; }
+.led-player { display: flex; flex-direction: column; align-items: center; gap: 8px; width: 100%; height: 100%; min-height: 0; color: #111; container-type: inline-size; }
+.led-player__board-area { flex: 1; min-height: 0; width: 100%; display: grid; place-items: center; }
+.led-board-frame { position: relative; min-height: 0; height: 100%; width: auto; aspect-ratio: 1 / 2; max-width: 100%; padding-top: 6%; }
+.led-board-frame__camera { position: absolute; right: 18%; top: 0; width: 12%; aspect-ratio: 1; border-radius: 45% 45% 15% 15%; background: radial-gradient(circle at 50% 42%, #111 0 24%, #555 25% 32%, #ddd 33% 48%, #eee 49%); border: 1px solid #bbb; }
+.led-board-frame__cabinet { position: relative; width: 100%; height: 100%; min-height: 0; border-radius: 3px; background: linear-gradient(90deg, #aa8500, #f5cd00 7%, #ffe867 94%, #c49b00); box-shadow: 3px 5px 12px rgb(0 0 0 / 25%); }
+.led-board-frame__header { position: absolute; top: 1.5%; left: 9%; right: 5%; height: 6%; display: flex; align-items: center; justify-content: space-between; gap: 3px; font-size: clamp(5px, 3.5cqi, 11px); line-height: 1; white-space: nowrap; font-weight: 700; }
+.led-board-frame__brand { position: absolute; left: 1.5%; top: 20%; bottom: 14%; writing-mode: vertical-rl; transform: rotate(180deg); font-size: clamp(7px, 4cqi, 13px); font-weight: 800; letter-spacing: .07em; text-align: center; }
+.led-board-frame__screen { position: absolute; inset: 8% 5% 5% 9%; background: #080808; overflow: hidden; border: 1px solid #453600; }
+.led-board-frame__screen video { display: block; width: 100%; height: 100%; max-width: 100%; object-fit: contain; background: #080808; }
+.led-board-frame__footer { position: absolute; bottom: .5%; left: 9%; right: 5%; height: 3.5%; display: grid; place-items: center; font-size: clamp(5px, 2.8cqi, 9px); font-weight: 800; letter-spacing: .08em; }
+.led-player__controls { flex: 0 0 auto; width: 100%; display: grid; justify-items: center; gap: 4px; font-size: 13px; line-height: 1.2; }
+.led-player__title { max-width: 100%; text-align: center; overflow-wrap: anywhere; }
+.led-player__buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; }
+.led-player__controls button { min-width: 28px; min-height: 28px; padding: 4px 6px; background: #fff; border: 1px solid #ccc; border-radius: 5px; color: #111; cursor: pointer; }
+.led-player__controls .led-player__close { border: 0; background: transparent; text-decoration: underline; font-size: 12px; }
+.led-player__empty { display: grid; place-content: center; height: 100%; padding: 12px; color: #fff; text-align: center; font-size: clamp(12px, 6cqi, 18px); line-height: 1.4; margin: 0; }
+.led-player__retry { position: absolute; inset: 30% 8%; height: fit-content; margin: auto; padding: 12px 8px; color: #111; background: var(--yellow); border: 0; border-radius: 8px; cursor: pointer; }
+
+.rtv-page .rtv-hero-stage { width: 100%; min-width: 0; display: grid; place-items: center; perspective: 1200px; }
+.rtv-page .rtv-hero-stage .rtv-hero-video[hidden] { display: none; }
+.rtv-page .rtv-hero-stage--playing { height: 540px; }
+.rtv-page .rtv-hero-stage > .led-player { width: min(310px, 85%); padding: 8px 0; }
+.rtv-hero-stage--playing .led-board-frame { animation: led-board-face-forward .55s ease both; }
+@keyframes led-board-face-forward { from { transform: rotateY(55deg); opacity: .3; } to { transform: rotateY(0deg); opacity: 1; } }
+
+.rtv-page .rtv-channel-stage { width: 100%; aspect-ratio: 250 / 422; perspective: 1200px; }
+.rtv-channel-turn { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform .6s cubic-bezier(.2,.75,.25,1); }
+.rtv-page .channel-card.is-flipped .rtv-channel-turn { transform: rotateY(180deg); }
+.rtv-channel-front, .rtv-channel-back { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; padding: 0; border-radius: 16px; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.rtv-channel-front { display: block; background: transparent; color: inherit; cursor: pointer; transform: rotateY(0); }
+.rtv-channel-back { display: flex; background: #fffbea; transform: rotateY(180deg); padding: 8px; box-shadow: var(--shadow-soft); }
+.rtv-page .rtv-channel-front .channel-card__visual { height: 100%; width: 100%; }
+.rtv-page .rtv-channel-front .channel-card__mascot { width: 100%; height: 100%; object-fit: contain; }
+.rtv-page .rtv-channel-back .led-player__empty { font-size: clamp(11px, 7cqi, 18px); }
+.rtv-page .rtv-channel-back .led-player__controls { font-size: clamp(10px, 6cqi, 14px); }
+
+@media (max-width: 1100px) {
+  .rtv-page .rtv-hero-stage { max-width: 620px; margin-inline: auto; }
+}
+@media (max-width: 600px) {
+  .rtv-page .rtv-hero-stage--playing { height: min(580px, 80svh); min-height: 360px; }
+  .led-player__controls button { min-height: 36px; min-width: 36px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rtv-channel-turn { transition: none; }
+  .rtv-hero-stage--playing .led-board-frame { animation: none; }
+}
+
+/* The image has intrinsic width AND height attributes; override height when scaling. */
+.callback-form__mascot { height: auto; object-fit: contain; aspect-ratio: 2 / 3; }
+@media (max-width: 600px) {
+  .contact-dialog--callback .callback-form { padding-bottom: 24px; }
+  .contact-dialog--callback .callback-form__mascot { position: static; width: min(160px, 60%); height: auto; margin: 20px auto 0; }
+}
